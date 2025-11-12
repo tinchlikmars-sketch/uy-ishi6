@@ -1,0 +1,57 @@
+body {
+  background-color: #e9d2f4;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: white;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  border-radius: 10px;
+}
+
+.box {
+  width: 120px;
+  height: 120px;
+  background-color: #8e44ad;
+  display: flex;
+  padding: 8px;
+  border-radius: 6px;
+}
+
+.mini {
+  width: 20px;
+  height: 20px;
+  background-color: green;
+  margin: 3px;
+  border-radius: 3px;
+}
+
+/* Qo‘shimcha Flex holatlari */
+.column {
+  flex-direction: column;
+}
+
+.wrap {
+  flex-wrap: wrap;
+  width: 120px;
+}
+
+.center {
+  justify-content: center;
+}
+
+.bottom {
+  align-items: flex-end;
+}
+
+.middle {
+  justify-content: center;
+  align-items: center;
+}
